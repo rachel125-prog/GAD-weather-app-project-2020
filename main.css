@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height:100vh;
+    display: flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center; 
+background: whitesmoke;    
+font-family: 'montserrat',  sans-serif;
+}
+
+.app-wrap {
+    justify-content: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding:50px;
+    border: 50px;
+    outline: 10px;
+    background: linear-gradient(rgb(47,150,163), rgb(48,62,143)); 
+    
+}
+header {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin: 14px;
+}
+header input {
+    width: 100%;
+    max-width: 700px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+     background-color: white;
+     border-radius: 16px 0px 16px 0px;
+     border-bottom: 3px solid #fff;
+     color: wheat;
+     font-size: 20px;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+     font-weight: 300;
+     transition: 0.2s ease-out;
+}
+header input:focus {
+    background-color:rgb(48,62,143);
+}
+   #wicon {
+       height: 100px;
+      padding: 10px;
+  width: 100px;
+  font-size: 0px;
+  align-items: center;
+   }
+.app {
+    font-family: cursive;
+    font-size: 15;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+}
+main {
+    flex: 1 1 100%;
+    padding: 25px 25px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} 
+
+.location .city {
+    color: whitesmoke;
+    font-size: 35px;
+    font-weight: 500;
+    margin-bottom: 5px;
+} 
+.location .date {
+    color: white;
+    font-size: 16px;
+}
+
+.current .temp {
+   color: whitesmoke;
+   font-size: 30px;
+   font-weight: 900;
+   margin: 30px 0px;
+   text-shadow:2px 5px rgba( 0, 0, 0, 0.6)
+ }
+
+ .current .temp span {
+     font-weight: 500;
+ }
+ .current .weather {
+    color: whitesmoke;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 15px;
+    text-shadow: 0px 5px rgba(0, 0, 0, 0.4);
+}
+
+    .current .hi-low {
+    color: whitesmoke;
+    font-size: 15x;
+    font-weight: 500;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
+
+.footer {
+    color: white;
+    font-size: 20px;
+    font-family: cursive;
+    font-weight: bolder;
+    margin-top: 100px;
+    text-align: center;
+    text-shadow: 0px 4px rgba(0, 0, 0, 0.4);
+}
